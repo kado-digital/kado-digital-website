@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-# Add your production sitemap URL once your domain is known.
+Sitemap: https://kado-digital-website.pages.dev/sitemap.xml

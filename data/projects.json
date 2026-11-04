@@ -1,0 +1,495 @@
+[
+  {
+    "id": "kado-website",
+    "slug": "kado-website",
+    "title": "Kado Digital cinematic website",
+    "owner": "kado",
+    "status": "live",
+    "categories": [
+      "web"
+    ],
+    "featured": true,
+    "art": "cinema",
+    "summary": "The studio’s own black-and-orange cinematic portfolio, with scroll-driven storytelling and a configurable website concept.",
+    "details": [
+      "Static HTML, CSS and JavaScript hosted on Cloudflare Pages",
+      "Responsive scroll scenes with reduced-motion fallbacks",
+      "A live website customizer demonstrating design directions"
+    ],
+    "tech": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Cloudflare Pages"
+    ],
+    "links": [
+      {
+        "label": "Visit Kado Digital",
+        "href": "https://kado-digital-website.pages.dev",
+        "external": true
+      }
+    ],
+    "year": "2026",
+    "heroLabel": "WEB · LIVE KADO PRODUCT",
+    "story": "Our own website is the studio’s public proof of craft: a minimalist geometric cat identity, cinematic scroll treatment, accessible navigation and a working website-design demonstrator.",
+    "approach": "The experience is deliberately dependency-light. It is built with semantic HTML, responsive CSS and small vanilla-JavaScript modules, then deployed automatically from GitHub to Cloudflare Pages.",
+    "outcome": "Live public studio website. The interactive website customizer is a demonstration, not a client deployment.",
+    "image": "/assets/showcase/kado-website-preview.webp",
+    "imageAlt": "Actual screenshot of the Kado Digital cinematic homepage",
+    "gallery": [
+      {
+        "image": "/assets/showcase/website-customizer.webp",
+        "alt": "Actual screenshot of the Kado website customizer with an illustrative fictional landscaping site",
+        "caption": "Live customizer demonstration: illustrative example, not client work"
+      }
+    ],
+    "projectUrl": "/work/kado-website/"
+  },
+  {
+    "id": "memelife",
+    "title": "MemeLife",
+    "owner": "kado",
+    "status": "dev",
+    "categories": [
+      "games",
+      "mobile"
+    ],
+    "featured": true,
+    "art": "merge",
+    "summary": "A mobile merge game built in Godot, Kado Digital’s first original game.",
+    "details": [
+      "Tap producers to create mergeable items, then combine chains to progress",
+      "Level-based unlocks and a character timeline spanning early internet culture to modern social apps",
+      "Godot 4.x content experiments; commercial game source and launch still being finalized"
+    ],
+    "tech": [
+      "Godot 4.x",
+      "GDScript",
+      "Game design",
+      "Mobile UX"
+    ],
+    "links": [],
+    "slug": "memelife",
+    "year": "2026",
+    "heroLabel": "GAME · DEVELOPMENT",
+    "outcome": "Prototype stage. The full Godot game source is not currently available in the public portfolio, and no app-store release is claimed.",
+    "gallery": [],
+    "story": "A playful mobile merging game built around growing up with internet culture. The experience explores item chains, character evolution and a progression system designed for quick sessions.",
+    "approach": "Godot 4.x is the target engine. The design includes an expandable merge board, producers, level rewards, an evolving cast and opt-in rewarded ads. A standalone technology-content lab exists, but it is not the complete game.",
+    "image": null,
+    "imageAlt": null,
+    "projectUrl": "/work/memelife/"
+  },
+  {
+    "id": "photo-cleaner",
+    "title": "Photo Cleaner",
+    "owner": "kado",
+    "status": "dev",
+    "categories": [
+      "mobile"
+    ],
+    "featured": true,
+    "art": "swipe",
+    "summary": "A local-first Flutter app for clearing out a photo library quickly, without ever deleting by accident.",
+    "details": [
+      "Swipe to keep or queue; deletion never happens without explicit confirmation",
+      "Local-first duplicate and similarity analysis, with attention to faces and sensitive documents",
+      "Optional monetization at natural breaks without interrupting or blocking progress"
+    ],
+    "tech": [
+      "Flutter",
+      "Dart",
+      "Mobile privacy",
+      "Local-first design"
+    ],
+    "links": [],
+    "slug": "photo-cleaner",
+    "year": "2026",
+    "heroLabel": "MOBILE · PRODUCT DESIGN",
+    "outcome": "Prototype/development stage. The GitHub repository does not currently contain the complete app source, and no store release is claimed.",
+    "gallery": [],
+    "story": "A photo-cleanup workflow built around quick decisions and deliberate control. Swipe right to keep, swipe left to queue for deletion, then review everything before deleting.",
+    "approach": "Flutter is the intended mobile stack. The design prioritizes authorized photo-library access, on-device analysis where practical, duplicate/similar-photo grouping and safeguards for sensitive images.",
+    "image": null,
+    "imageAlt": null,
+    "projectUrl": "/work/photo-cleaner/"
+  },
+  {
+    "id": "memelife-site",
+    "title": "MemeLife cinematic website",
+    "owner": "kado",
+    "status": "dev",
+    "categories": [
+      "web"
+    ],
+    "featured": true,
+    "art": "cinema",
+    "summary": "The companion website for MemeLife: pinned full-screen scenes, layered parallax and scroll-directed storytelling.",
+    "details": [
+      "Story-driven sequences, from personal computers and messenger apps to the smartphone era",
+      "Layered WebP artwork and scroll-controlled transitions",
+      "Still a project website concept, not proof that the mobile game has launched"
+    ],
+    "tech": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "links": [
+      {
+        "label": "MemeLife website preview (availability varies)",
+        "href": "https://memelife-game.vercel.app",
+        "external": true
+      }
+    ],
+    "slug": "memelife-site",
+    "year": "2026",
+    "heroLabel": "WEB · CINEMATIC STORYTELLING",
+    "outcome": "A website prototype with multiple illustrated scenes; additional assets and launch review remain in progress.",
+    "gallery": [],
+    "story": "A scroll-driven promotional concept tracing technology and internet culture across a lifetime, using parallax and layered illustrated scenes.",
+    "approach": "A static HTML, CSS and JavaScript site layers backgrounds, characters and foregrounds. Motion is tied to native scroll, with mobile and reduced-motion considerations.",
+    "image": null,
+    "imageAlt": null,
+    "projectUrl": "/work/memelife-site/"
+  },
+  {
+    "id": "algorithm-lab",
+    "title": "Algorithm Lab",
+    "owner": "personal",
+    "status": "oss",
+    "categories": [
+      "devtools"
+    ],
+    "featured": false,
+    "art": "repo",
+    "summary": "Interactive scientific-computing demonstrations for optimization benchmarks, optimal transport, and ChiMerge discretization.",
+    "details": [
+      "Optimization benchmark landscapes for Ackley, Rastrigin, Griewank and Quadric",
+      "Transport plans, distribution interpolation and synthetic adaptation examples",
+      "ChiMerge interval boundaries on an abalone data set"
+    ],
+    "tech": [
+      "Python",
+      "Django",
+      "NumPy",
+      "SciPy",
+      "Docker"
+    ],
+    "links": [
+      {
+        "label": "View Algorithm Lab on GitHub",
+        "href": "https://github.com/mbnsfr/Algorithm-Lab",
+        "external": true
+      }
+    ],
+    "slug": "algorithm-lab",
+    "year": "Personal · Open source",
+    "heroLabel": "SCIENTIFIC COMPUTING",
+    "outcome": "Public source repository with reproducible numerical demonstrations and test coverage.",
+    "gallery": [],
+    "story": "A Django-based portfolio of numerical computing experiments combining optimization landscapes, optimal transport demonstrations and ChiMerge discretization.",
+    "approach": "The application unifies three earlier histories, exposes visual modules and provides reproducible local development with Docker and automated tests.",
+    "image": "/assets/showcase/algorithm-rastrigin.webp",
+    "imageAlt": "Illustrative 3D Rastrigin optimization landscape, a function studied in Algorithm Lab; not an application screenshot",
+    "projectUrl": "/work/algorithm-lab/"
+  },
+  {
+    "id": "aws-practice",
+    "slug": "aws-practice",
+    "title": "AWS Python examples",
+    "owner": "personal",
+    "status": "oss",
+    "categories": [
+      "cloud"
+    ],
+    "featured": false,
+    "art": "cloud",
+    "summary": "Small public Python and Boto3 exercises illustrating AWS automation and data workflows.",
+    "details": [
+      "Educational AWS scripting exercises",
+      "Python with Boto3",
+      "Personal practice, not customer infrastructure"
+    ],
+    "tech": [
+      "AWS",
+      "Python",
+      "Boto3"
+    ],
+    "links": [
+      {
+        "label": "View source on GitHub",
+        "href": "https://github.com/mbnsfr/aws-practice",
+        "external": true
+      }
+    ],
+    "year": "Personal · Open source",
+    "heroLabel": "CLOUD · LEARNING",
+    "story": "A focused collection of AWS practice exercises and Python automation ideas.",
+    "approach": "Small scripts provide a sandbox for understanding cloud SDK operations and basic automations without exposing real customer environments.",
+    "outcome": "Public personal practice repository; no commercial product or service-level claims.",
+    "gallery": [],
+    "image": null,
+    "imageAlt": null,
+    "projectUrl": "/work/aws-practice/"
+  },
+  {
+    "id": "cloud-rag",
+    "title": "Cloud infrastructure and RAG systems",
+    "owner": "professional",
+    "status": "pro",
+    "categories": [
+      "cloud",
+      "ai"
+    ],
+    "featured": false,
+    "art": "cloud",
+    "summary": "Experience from Mobina’s professional role in AWS cloud engineering and retrieval-augmented generation (RAG). Described as skills only: no employer or customer systems, names or details are shown, and this work is not Kado Digital property.",
+    "details": [
+      "AWS cloud operations, automation and incident troubleshooting",
+      "Full-stack support and observability",
+      "RAG-related engineering experience, described at a high level"
+    ],
+    "tech": [
+      "AWS",
+      "RAG",
+      "Full-stack"
+    ],
+    "links": [],
+    "slug": "cloud-rag",
+    "year": "Employment experience",
+    "heroLabel": "CLOUD · PROFESSIONAL EXPERIENCE",
+    "outcome": "Experience summary only. No employer-owned implementation, customer data, confidential architecture or private source is presented.",
+    "gallery": [],
+    "story": "An overview of technologies applied in professional employment, not a Kado Digital product or company-owned case study.",
+    "approach": "Cloud administration includes monitoring, troubleshooting, AWS operations and exposure to application delivery and retrieval-augmented generation systems.",
+    "image": null,
+    "imageAlt": null,
+    "projectUrl": "/work/cloud-rag/"
+  },
+  {
+    "id": "custom-portal-prototype",
+    "title": "Custom business website platform (prototype)",
+    "owner": "personal",
+    "status": "exp",
+    "categories": [
+      "web",
+      "cloud"
+    ],
+    "featured": false,
+    "art": "code",
+    "summary": "A role-based web application prototype for content management, client communications and project quoting.",
+    "details": [
+      "Role-based content management, approvals and revisions",
+      "Quotes and customer-owned records with access controls",
+      "Security-oriented prototype requiring production hardening"
+    ],
+    "tech": [
+      "React",
+      "FastAPI",
+      "PostgreSQL",
+      "Docker"
+    ],
+    "links": [],
+    "slug": "custom-portal-prototype",
+    "year": "2026 · Prototype",
+    "heroLabel": "FULL-STACK · PRIVATE PROTOTYPE",
+    "outcome": "Private technical prototype. Not production-certified and not marketed as an active hosted client portal.",
+    "gallery": [],
+    "story": "A role-based web application experiment exploring a public company website with editorial tools, quotation workflows and client-facing records.",
+    "approach": "React frontend with FastAPI, SQLAlchemy and PostgreSQL backend. Role boundaries for admin, writer and client are enforced server-side rather than only through the UI.",
+    "image": null,
+    "imageAlt": null,
+    "projectUrl": "/work/custom-portal-prototype/"
+  },
+  {
+    "id": "django-boards",
+    "title": "Django Boards",
+    "owner": "personal",
+    "status": "oss",
+    "categories": [
+      "cloud"
+    ],
+    "featured": false,
+    "art": "repo",
+    "summary": "A Django discussion-board application with environment-based security, health checks, tests, CI, and containerization.",
+    "details": [
+      "Boards, topics and admin functionality using the Django ORM",
+      "Runtime security settings, health endpoint and deployment checks",
+      "Docker Compose and GitHub Actions automation"
+    ],
+    "tech": [
+      "Python",
+      "Django",
+      "Docker",
+      "GitHub Actions"
+    ],
+    "links": [
+      {
+        "label": "View Django Boards on GitHub",
+        "href": "https://github.com/mbnsfr/Django-Boards",
+        "external": true
+      }
+    ],
+    "slug": "django-boards",
+    "year": "Personal · Open source",
+    "heroLabel": "WEB · DJANGO",
+    "outcome": "Public learning project with a hardened development/deployment example; not presented as a paid client product.",
+    "gallery": [],
+    "story": "A discussion-board application updated around production-minded Django conventions and a clear separation of settings and web routes.",
+    "approach": "Django ORM, admin and tests are paired with Gunicorn, WhiteNoise, environment-backed security and Docker workflows.",
+    "image": null,
+    "imageAlt": null,
+    "projectUrl": "/work/django-boards/"
+  },
+  {
+    "id": "flooring-studio-demo",
+    "title": "Designe Flooring Studio (website concept)",
+    "owner": "personal",
+    "status": "exp",
+    "categories": [
+      "web"
+    ],
+    "featured": false,
+    "art": "cinema",
+    "summary": "A customizable React website concept for a premium flooring and interior-design business, designed as a portfolio demonstration.",
+    "details": [
+      "Multi-page frontend with materials, services, project pages and consultations",
+      "Responsive React components and themed presentation",
+      "Illustrative business content, explicitly not customer work"
+    ],
+    "tech": [
+      "React",
+      "JavaScript",
+      "Ant Design"
+    ],
+    "links": [],
+    "slug": "flooring-studio-demo",
+    "year": "2026 · Concept",
+    "heroLabel": "WEBSITE DESIGN · PRIVATE CONCEPT",
+    "outcome": "Private portfolio concept—not a real customer launch or a completed client contract.",
+    "gallery": [],
+    "story": "A React website concept for a premium flooring and interior-design brand, created as a sample of multi-page presentation and navigation patterns.",
+    "approach": "React Router and Ant Design support service pages, materials, project listings and contact/consultation interactions. The forms use mailto handoff rather than a backend.",
+    "image": null,
+    "imageAlt": null,
+    "projectUrl": "/work/flooring-studio-demo/"
+  },
+  {
+    "id": "parse-platform",
+    "title": "Parse Platform",
+    "owner": "personal",
+    "status": "oss",
+    "categories": [
+      "cloud"
+    ],
+    "featured": false,
+    "art": "repo",
+    "summary": "Multilingual full-stack starter with a typed data-filter builder, Parse API, health checks, and Dockerized development.",
+    "details": [
+      "Typed data-filter builder for strings, numbers, dates and booleans",
+      "React 18 + Express/Parse Server API with MongoDB persistence",
+      "Developer-focused Docker setup, health checks and automated tests"
+    ],
+    "tech": [
+      "React",
+      "Express",
+      "Parse Server",
+      "MongoDB",
+      "Docker"
+    ],
+    "links": [
+      {
+        "label": "View Parse Platform on GitHub",
+        "href": "https://github.com/mbnsfr/Parse-Platform",
+        "external": true
+      }
+    ],
+    "slug": "parse-platform",
+    "year": "Personal · Open source",
+    "heroLabel": "FULL-STACK · PERSONAL",
+    "outcome": "Public source intended as a developer starter; production permissions and credentials must be configured before real-world use.",
+    "gallery": [],
+    "story": "A consolidated full-stack starter built with React, Express, Parse Server and MongoDB. It combines earlier frontend, backend and query-building experiments.",
+    "approach": "The project includes a typed React data-filter builder, multilingual frontend, Parse API, health checks, CI and Docker-based local development.",
+    "image": null,
+    "imageAlt": null,
+    "projectUrl": "/work/parse-platform/"
+  },
+  {
+    "id": "speech-emotion-research",
+    "slug": "speech-emotion-research",
+    "title": "Speech emotion recognition research",
+    "owner": "personal",
+    "status": "exp",
+    "categories": [
+      "ai"
+    ],
+    "featured": false,
+    "art": "code",
+    "summary": "Graduate research exploring Conformer networks and pretrained speech representations for speech emotion recognition.",
+    "details": [
+      "Research into spoken emotion classification and acoustic representations",
+      "Conformer architecture and pretrained audio representation experiments",
+      "Graduate research, not a public clinical or production system"
+    ],
+    "tech": [
+      "Python",
+      "PyTorch",
+      "TensorFlow",
+      "Conformer",
+      "Speech ML"
+    ],
+    "links": [],
+    "year": "2023–2024 · Graduate work",
+    "heroLabel": "RESEARCH · PERSONAL",
+    "story": "Master’s-level investigation of how models can learn emotional cues in speech from time-dependent acoustic features and representations.",
+    "approach": "The research focused on Conformer-based modeling and pretrained speech representations, with experimentation and evaluation in an academic setting.",
+    "outcome": "Graduate research. No peer-reviewed publication or production deployment is claimed.",
+    "gallery": [],
+    "image": null,
+    "imageAlt": null,
+    "projectUrl": "/work/speech-emotion-research/"
+  },
+  {
+    "id": "vscode-ai-assistant",
+    "title": "VS Code AI coding assistant",
+    "owner": "personal",
+    "status": "exp",
+    "categories": [
+      "devtools",
+      "ai"
+    ],
+    "featured": true,
+    "art": "code",
+    "summary": "An experimental multi-agent coding assistant for Visual Studio Code. A personal research project, not a published extension.",
+    "details": [
+      "Plan → implement → independently review in a controlled Git worktree",
+      "Fallback behavior for some quota/auth/transient failures with safety stops after partial edits",
+      "SecretStorage for provider keys; manual verification remains essential"
+    ],
+    "tech": [
+      "JavaScript",
+      "VS Code API",
+      "Git worktrees",
+      "Multi-agent workflows"
+    ],
+    "links": [
+      {
+        "label": "View the source on GitHub",
+        "href": "https://github.com/mbnsfr/vscode-ai-assistant",
+        "external": true
+      }
+    ],
+    "slug": "vscode-ai-assistant",
+    "year": "2026",
+    "heroLabel": "DEVTOOLS · PERSONAL EXPERIMENT",
+    "outcome": "Experimental v0.3.0 source is public; not a published Marketplace extension or a guarantee of supported provider APIs.",
+    "gallery": [],
+    "story": "A personal VS Code extension exploring what happens when one coding task flows through planning, implementation and an independent review.",
+    "approach": "Provider integrations aim for official tools and authenticated interfaces. A Git worktree is used for implementation so unfinished edits do not silently contaminate the main working copy.",
+    "image": null,
+    "imageAlt": null,
+    "projectUrl": "/work/vscode-ai-assistant/"
+  }
+]

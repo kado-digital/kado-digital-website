@@ -1,21 +1,13 @@
-# Kado Digital LLC — Website setup
+# Deployment — Cloudflare Pages
 
-This repository is the source for the Kado Digital LLC static website (Home, About, Projects, Professional Websites, Resume, Contact).
+- Production: `https://kado-digital-website.pages.dev`
+- Source: `kado-digital/kado-digital-website`, `main` branch
+- Framework preset: `None`
+- Build command: `exit 0` (committed static output; no runtime build)
+- Build output directory: `.` (repository root)
+- Git integration: Cloudflare Pages automatically rebuilds on new pushes.
+- Commercial services are offered; do not use a host or plan that prohibits commercial use.
 
-## Publish the source
+Before publishing: run `python3 scripts/build_site.py`, `python3 -m unittest discover -s tests -v`, and `node --check` on the three JS modules. Inspect `/`, `/projects`, `/resume`, `/professional-websites`, `/contact`, and a `/work/<slug>/` route after deployment. Confirm original Kado branding, mobile behavior, email handoff and current project statuses.
 
-Upload the website's extracted files into the repository root, preserving `index.html`, `about.html`, `projects.html`, `professional-websites.html`, `resume.html`, `contact.html`, `404.html`, `css/`, `js/`, and `assets/`.
-
-The site is written in plain HTML, CSS and JavaScript; no `npm install` or build command is required. `index.html` is the entry point.
-
-## Deployment notes
-
-- Source owner: GitHub organization `kado-digital`.
-- Website host: not yet connected; no deployment made.
-- Vercel Hobby cannot connect a private organization-owned repository (`repo_owned_by_org`), and its terms limit it to non-commercial use. Do not change repository visibility or upgrade the plan without approval.
-- Supported deployment: an eligible Vercel commercial plan, or a static hosting provider whose free tier supports commercial sites.
-- Before a public launch, review site text, contact details, resume, product status, analytics and domain metadata.
-
-## Review
-
-Open `index.html` locally after downloading the entire repository; navigation to other pages uses relative links. Check desktop/mobile and verify original Kado cat branding.
+No Cloudflare API tokens are committed or needed in this repository.
